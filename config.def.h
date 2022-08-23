@@ -213,6 +213,7 @@ static Shortcut shortcuts[] = {
 	{ XK_NO_MOD,            XK_F11,         fullscreen,     {.i =  0} },
 	{ MODKEY,               XK_Return,      fullscreen,     {.i =  0} },
 	{ TERMMOD,              XK_Return,      newterm,        {.i =  0} },
+	{ TERMMOD,              XK_Escape,      keyboard_select,{.i =  0} },
 };
 
 /*
