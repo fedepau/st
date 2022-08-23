@@ -2,17 +2,17 @@
 
 ## Applied patches:
 - [alpha](https://st.suckless.org/patches/alpha/)
-- [anygeometry](https://st.suckless.org/patches/anygeometry/))
 - [anysize](https://st.suckless.org/patches/anysize/)
 - [blinking cursor](https://st.suckless.org/patches/blinking_cursor/)
 - [bold is not bright](https://st.suckless.org/patches/bold-is-not-bright/)
 - [charoffset](https://st.suckless.org/patches/charoffsets/)
 - [clipboard](https://st.suckless.org/patches/clipboard/)
+- [dynamic cursor color](https://st.suckless.org/patches/dynamic-cursor-color/)
 - [fullscreen](https://st.suckless.org/patches/fullscreen/)
 - [gruvbox](https://st.suckless.org/patches/gruvbox/)
+- [keyboard select](https://st.suckless.org/patches/keyboard_select/)
 - [newterm](https://st.suckless.org/patches/newterm/)
 - [scrollback](https://st.suckless.org/patches/scrollback/)
-- [xresources](https://st.suckless.org/patches/xresources/)
 
 ## Requirements:
 Xlib header files. On Arch-based systems:
