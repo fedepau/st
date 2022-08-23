@@ -1,3 +1,10 @@
+/*                     ____________          ______    */ 
+/*  ______________________  __/__(_)______ _ ___  /_   */
+/*  _  ___/  __ \_  __ \_  /_ __  /__  __ `/ __  __ \  */
+/*  / /__ / /_/ /  / / /  __/ _  / _  /_/ /___  / / /  */
+/*  \___/ \____//_/ /_//_/    /_/  _\__, /_(_)_/ /_/   */
+/*                                 /____/              */
+
 /* See LICENSE file for copyright and license details. */
 
 /*
@@ -200,9 +207,9 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
-	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
-	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
+	{ ControlMask,          XK_Equal,       zoom,           {.f = +1} },
+	{ ControlMask,          XK_Minus,       zoom,           {.f = -1} },
+	{ ControlMask,          XK_0,           zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
@@ -211,7 +218,6 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 	{ XK_NO_MOD,            XK_F11,         fullscreen,     {.i =  0} },
-	{ MODKEY,               XK_Return,      fullscreen,     {.i =  0} },
 	{ TERMMOD,              XK_Return,      newterm,        {.i =  0} },
 	{ TERMMOD,              XK_Escape,      keyboard_select,{.i =  0} },
 };
