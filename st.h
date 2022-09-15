@@ -88,6 +88,7 @@ void kscrollup(const Arg *);
 void fullscreen(const Arg *);
 void newterm(const Arg *);
 void printscreen(const Arg *);
+void externalpipe(const Arg *);
 void printsel(const Arg *);
 void sendbreak(const Arg *);
 void toggleprinter(const Arg *);
