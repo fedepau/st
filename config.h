@@ -213,25 +213,25 @@ static MouseShortcut mshortcuts[] = {
 #define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
-	/* mask                 keysym              function        argument */
-	{ XK_ANY_MOD,           XK_Break,           sendbreak,      {.i =  0} },
-	{ ControlMask,          XK_Print,           toggleprinter,  {.i =  0} },
-	{ ShiftMask,            XK_Print,           printscreen,    {.i =  0} },
-	{ XK_ANY_MOD,           XK_Print,           printsel,       {.i =  0} },
-	{ ControlMask,          XK_equal,           zoom,           {.f = +1} },
-	{ ControlMask,          XK_minus,           zoom,           {.f = -1} },
-	{ ControlMask,          XK_0,               zoomreset,      {.f =  0} },
-	{ TERMMOD,              XK_C,               clipcopy,       {.i =  0} },
-	{ TERMMOD,              XK_V,               clippaste,      {.i =  0} },
-	{ TERMMOD,              XK_Y,               selpaste,       {.i =  0} },
-	{ ShiftMask,            XK_Insert,          selpaste,       {.i =  0} },
-	{ TERMMOD,              XK_Num_Lock,        numlock,        {.i =  0} },
-	{ ShiftMask,            XK_Page_Up,         kscrollup,      {.i = -1} },
-	{ ShiftMask,            XK_Page_Down,       kscrolldown,    {.i = -1} },
-	{ XK_NO_MOD,            XK_F11,             fullscreen,     {.i =  0} },
-	{ Mod4Mask|Mod1Mask,    XK_Return,          newterm,        {.i =  0} },
-	{ TERMMOD,              XK_Escape,          keyboard_select,{.i =  0} },
-	{ MODKEY,               XK_v,               externalpipe,   { .v = editscreen } },
+	/* mask                 keysym              function          argument */
+	{ XK_ANY_MOD,           XK_Break,           sendbreak,        {.i =  0} },
+	{ ControlMask,          XK_Print,           toggleprinter,    {.i =  0} },
+	{ ShiftMask,            XK_Print,           printscreen,      {.i =  0} },
+	{ XK_ANY_MOD,           XK_Print,           printsel,         {.i =  0} },
+	{ ControlMask,          XK_equal,           zoom,             {.f = +1} },
+	{ ControlMask,          XK_minus,           zoom,             {.f = -1} },
+	{ ControlMask,          XK_0,               zoomreset,        {.f =  0} },
+	{ TERMMOD,              XK_C,               clipcopy,         {.i =  0} },
+	{ TERMMOD,              XK_V,               clippaste,        {.i =  0} },
+	{ TERMMOD,              XK_Y,               selpaste,         {.i =  0} },
+	{ ShiftMask,            XK_Insert,          selpaste,         {.i =  0} },
+	{ TERMMOD,              XK_Num_Lock,        numlock,          {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,         kscrollup,        {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,       kscrolldown,      {.i = -1} },
+	{ XK_NO_MOD,            XK_F11,             fullscreen,       {.i =  0} },
+	{ TERMMOD,              XK_Escape,          keyboard_select,  {.i =  0} },
+	{ MODKEY,               XK_v,               externalpipe,     { .v = editscreen } },
+	{ Mod4Mask|MODKEY,      XK_Return,          newterm,          {.i =  0} },
 };
 
 /*
