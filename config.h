@@ -229,7 +229,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Page_Up,         kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,       kscrolldown,    {.i = -1} },
 	{ XK_NO_MOD,            XK_F11,             fullscreen,     {.i =  0} },
-	{ TERMMOD,              XK_Return,          newterm,        {.i =  0} },
+	{ Mod4Mask|Mod1Mask,    XK_Return,          newterm,        {.i =  0} },
 	{ TERMMOD,              XK_Escape,          keyboard_select,{.i =  0} },
 	{ MODKEY,               XK_v,               externalpipe,   { .v = editscreen } },
 };
