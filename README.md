@@ -7,7 +7,6 @@
 - [bold is not bright](https://st.suckless.org/patches/bold-is-not-bright/)
 - [charoffset](https://st.suckless.org/patches/charoffsets/)
 - [clipboard](https://st.suckless.org/patches/clipboard/)
-- [dynamic cursor color](https://st.suckless.org/patches/dynamic-cursor-color/)
 - [externalpipe](https://st.suckless.org/patches/externalpipe/)
 - [fullscreen](https://st.suckless.org/patches/fullscreen/)
 - [gruvbox](https://st.suckless.org/patches/gruvbox/)
